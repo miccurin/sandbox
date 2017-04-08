@@ -1,0 +1,18 @@
+{
+  "api": {
+    "host": "https://localhost",
+    "port": 8444
+  },
+  "client": {
+    "host": "https://localhost",
+    "port": 8443
+  },
+  "security": {
+    "tokenLife" : 3600,
+    "host": "ldap://tor-mvp-0001.loycorp.local",
+    "domain": "@loycorp.local"
+  },
+  "mongoose": {
+    "uri": "mongodb://localhost:27017/talent"
+  }
+}

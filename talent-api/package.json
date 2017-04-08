@@ -1,0 +1,35 @@
+{
+  "name": "talent-api",
+  "version": "0.9.1",
+  "description": "LoyaltyOne Talent APIs",
+  "author": {
+    "name": "Milan Kliska",
+    "email": "mkliska@loyalty.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./server.js",
+  "dependencies": {
+    "body-parser": "1.9.x",
+    "express": "4.10.x",
+    "morgan": "*",
+    "mongoose": "3.8.3",
+    "nconf": "0.7.x",
+    "oauth2orize": "*",
+    "winston": "0.8.x"
+  },
+  "devDependencies": {
+    "api-easy": "^0.4.0",
+    "istanbul": "0.3.x",
+    "jscs": "1.9.x",
+    "jshint": "^2.6.0",
+    "vows": "^0.8.1"
+  },
+  "scripts": {
+    "xtest": "vows test/* --spec",
+    "xtest": "istanbul test vows test/* --spec",
+    "test": "istanbul cover --hook-run-in-context test/*.js"
+  }
+}

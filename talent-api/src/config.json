@@ -1,0 +1,18 @@
+{
+  "api": {
+    "host": "http://localhost",
+    "port": 8444
+  },
+  "client": {
+    "host": "https://localhost",
+    "port": 8443
+  },
+  "security": {
+    "tokenLife" : 3600,
+    "tokenTag" : "Token",
+    "header" : "authorization"
+  },
+  "mongoose": {
+    "uri": "mongodb://localhost:27017/talent"
+  }
+}

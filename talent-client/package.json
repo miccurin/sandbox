@@ -1,0 +1,32 @@
+{
+  "name": "talent-client",
+  "version": "0.9.1",
+  "description": "LoyaltyOne Talent Client",
+  "author": {
+    "name": "Milan Kliska",
+    "email": "mkliska@loyalty.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "server.js",
+  "dependencies": {
+    "jade": "*",
+    "express": "4.10.x",
+    "express-session": "*",
+    "faker": "2.1.x",
+    "morgan": "*",
+    "mongoose": "3.8.3",
+    "nconf": "0.7.x",
+    "cookie-parser": "*",
+    "body-parser": "1.9.x",
+    "connect-flash": "0.1.1",
+    "bcrypt-nodejs": "0.0.x",
+    "passport": "0.2.x",
+    "passport-local": "^1.0.x",
+    "serve-favicon": "2.1.x",
+    "winston": "0.8.x",
+    "activedirectory": "^0.6.3"
+  }
+}

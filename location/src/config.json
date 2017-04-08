@@ -1,0 +1,9 @@
+{
+  "access": {
+    "host": "https://localhost",
+    "port": 8080
+  },
+  "mongoose": {
+    "uri": "mongodb://localhost:27017/talent"
+  }
+}
