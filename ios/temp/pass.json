@@ -1,0 +1,100 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.loyalty.test.wallet",
+  "serialNumber" : "E5982H-I2",
+  "teamIdentifier" : "Q993GD2AP6",
+  "webServiceURL" : "https://www.loyalty.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "barcode" : {
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "nfc" : {
+    "message" : "076111121097108116121079110101",
+    "encryptionPublicKey" : "MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEjdgPvrYr9THXIlWEppmdSJ6C2jkJaSsZy9MifmV4WgRC9Fh49zLB/+Ohhd4g/z697N/Jygh3ijHsY/UEzWbA9w=="
+  },
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722
+    },
+    {
+      "longitude" : -122.03118,
+      "latitude" : 37.33182
+    }
+  ],
+  "organizationName" : "LoyaltyOne",
+  "description" : "Load & Go",
+  "logoText" : "Airmiles",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(57, 178, 239)",
+  "generic" : {
+    "headerFields" : [
+      {
+        "key" : "dream",
+        "label" : "DREAM",
+        "value" : "2550"
+      },
+      {
+        "key" : "cash",
+        "label" : "CASH",
+        "value" : "3420"
+      }
+    ],
+    "primaryFields" : [
+      {
+        "key" : "member",
+        "label" : "J UNDERWOOD",
+        "value" : "7890 123 4567"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "subtitle",
+        "label" : "Collector Since",
+        "value" : "03/05"
+      }
+    ],
+    "backFields" : [
+      {
+        "numberStyle" : "PKNumberStyleSpellOut",
+        "label" : "spelled out",
+        "key" : "numberStyle",
+        "value" : 200
+      },
+      {
+        "label" : "in Reals",
+        "key" : "currency",
+        "value" : 200,
+        "currencyCode" : "BRL"
+      },
+      {
+        "dateStyle" : "PKDateStyleFull",
+        "label" : "full date",
+        "key" : "dateFull",
+        "value" : "1980-05-07T10:00-05:00"
+      },
+      {
+        "label" : "full time",
+        "key" : "timeFull",
+        "value" : "1980-05-07T10:00-05:00",
+        "timeStyle" : "PKDateStyleFull"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "short date and time",
+        "key" : "dateTime",
+        "value" : "1980-05-07T10:00-05:00",
+        "timeStyle" : "PKDateStyleShort"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "relative date",
+        "key" : "relStyle",
+        "value" : "2013-04-24T10:00-05:00",
+        "isRelative" : true
+      }
+    ]
+  }
+}
